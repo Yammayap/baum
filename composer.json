@@ -6,18 +6,19 @@
   "license": "MIT",
   "authors": [
     {
+      "name": "George Buckingham",
+      "email": "george@yammayap.com",
+      "homepage": "https://www.yammayap.com"
+    },
+    {
       "name": "Estanislau Trepat",
       "email": "estanis@etrepat.com",
       "homepage": "http://etrepat.com"
-    }
+    }    
   ],
   "require": {
     "php": ">=5.4.0",
-    "illuminate/console": "5.*",
-    "illuminate/database": "5.*",
-    "illuminate/events": "5.*",
-    "illuminate/filesystem": "5.*",
-    "illuminate/support": "5.*"
+    "laravel/framework": "^5.6|^5.7|^5.8|^6.0|^7.0"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.0",

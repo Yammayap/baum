@@ -1,6 +1,6 @@
 # Baum
 
-Fork of https://github.com/etrepat/baum for Laravel 5.8 Implementation.
+**Fork of https://github.com/etrepat/baum for Laravel 5.8, 6 and 7 implementation.**
 
 [![Build Status](https://travis-ci.org/etrepat/baum.png?branch=master)](https://travis-ci.org/etrepat/baum)
 
