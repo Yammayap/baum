@@ -1,4 +1,8 @@
-## 2.0.0
+## 1.3.0
+_Feb 15 2021_
+* Add support for Laravel 8
+
+## 1.2.0
 _May 20 2020_
 * Add support for Laravel 6 & 7
 
