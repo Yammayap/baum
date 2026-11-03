@@ -127,7 +127,7 @@ abstract class Node extends Model {
       $node->destroyDescendants();
     });
 
-    if ( static::softDeletesEnabled() ) {
+      if ( static::hasGlobalScope(\Illuminate\Database\Eloquent\SoftDeletingScope::class) ) {
       static::restoring(function($node) {
         $node->shiftSiblingsForRestore();
       });
